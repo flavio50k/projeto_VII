@@ -1,0 +1,31 @@
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+        <title>Login - REQ</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="shortcut icon" href="img/2x/outline_info_white_24dp.png"/>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
+        <link rel="stylesheet" href="./styles/login.css">
+    <body id="body-login">
+        <div id="container">
+            <img id="logo-login" src="img/logo.PNG" alt="Logo REQ">
+            <br>
+            <p id="boasvindas">Bem-vindo(a) ao REQ</p>
+            <form id="form-login" method="post">
+                <label for="user-field">Usuário</label>
+                <br>
+                <input type="text" class="login-field" id="user-field" required>
+                <br>
+                <label for="pass-field">Senha</label>
+                <br>
+                <input type="password"  class="login-field" id="pass-field" required>
+                <br>
+            </form>
+            <div id="acoes">
+                <input type="submit" value="Entrar" id="button-login">
+            </div>
+        </div>
+        <script src="js/validaCamposLogin.js"></script>
+    </body>
+</html>

@@ -1,0 +1,7 @@
+entidades\Projeto.class
+dao\ConexaoBanco.class
+entidades\Estado.class
+entidades\Pais.class
+entidades\Requisito.class
+entidades\Cidade.class
+entidades\Pessoa.class
