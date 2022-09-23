@@ -1,3 +1,5 @@
+<%@page import="entidades.Pessoa"%>
+<%@page import="dao.PessoaDAO"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
@@ -9,46 +11,43 @@
         <link rel="stylesheet" href="./styles/cadastro-usuario.css">
         <title>Cadastro de Usuário - REQ</title>
     </head>
-    <body id="body-caduser">
+    <body id="body-caduser">        
         <a href="paginaInicial.jsp"><img id="voltar" src="img/2x/outline_arrow_back_black_24dp.png"></a>
         <div id="container">
             <h2 id="texto-cadastro">Cadastro de Usuário</h2>
-            <form id="form-cadastro">
+            <form id="form-cadastro" method="post">
                 <div id="infos">
                     <label for="id-field">ID</label>
                     <input type="number" class="cad-field" id="id-field">
                     <br>
                     <label for="name-field">Nome</label>
-                    <input type="text" class="cad-field" id="name-field" required>
+                    <input type="text" class="cad-field" id="name-field" name="name-field" value="">
                     <br>
                     <label for="surname-field">Sobrenome</label>
-                    <input type="text" class="cad-field" id="surname-field" required>
-                    <br>
-                    <label for="birth-field">Nascimento</label>
-                    <input type="date" class="cad-field" id="birth-field" required>
+                    <input type="text" class="cad-field" id="surname-field" name="surename-field" value="">
                     <br>
                     <label for="cpf-field">CPF</label>
-                    <input type="text" class="cad-field" id="cpf-field" placeholder="Somente números" required>
+                    <input type="text" class="cad-field" id="cpf-field" name="cpf-field" placeholder="Somente números" value="">
                     <br>
                     <label for="email-field">E-mail</label>
-                    <input type="email" class="cad-field" id="email-field" placeholder="joao@email.com" required>
+                    <input type="email" class="cad-field" id="email-field" name="email-field" placeholder="joao@email.com" value="">
                     <br>
                     <label for="tel-field">Telefone</label>
-                    <input type="tel" class="cad-field" id="tel-field" placeholder="Somente números" required>
+                    <input type="tel" class="cad-field" id="tel-field" name="tel-field" placeholder="Somente números" value="">
                     <br>
                     <label for="user-field">Usuário</label>
-                    <input type="text" class="cad-field" id="user-field" required>
+                    <input type="text" class="cad-field" id="user-field" name="user-field" value="">
                     <br>
                     <label for="pass-field">Senha</label>
-                    <input type="passoword" class="cad-field" id="pass-field" required>
+                    <input type="passoword" class="cad-field" id="pass-field" name="pass-field" value="">
                     <br>
                     <label for="confpass-field">Confirmar Senha</label>
-                    <input type="passoword" class="cad-field" id="confpass-field" required>
+                    <input type="passoword" class="cad-field" id="confpass-field" value="">
                     <br>
                     <label for="permissions">Permissão</label>
                     <select id="permissions" name="permissions">
-                        <option value="admin">Administrador</option>
-                        <option value="user">Usuário</option>
+                        <option>Administrador</option>
+                        <option>Usuário</option>
                     </select>
                     <label for="situacao">Situação</label>
                     <select id="situacao" name="situacao">
@@ -57,23 +56,35 @@
                         <option value="bloqueado">Bloqueado</option>
                     </select>
                 </div>
+                
                 <div id="localizacao">
+                    
+                            <!-- ESTADO -->
                     <label for="estado">Estado</label>
                     <select id="estado" name="estado">
-                        <option value="rr">RS</option>
-                        <option value="sc">SC</option>
+                        <option>RS</option>
+                        <option>SC</option>
                     </select>
+                    
+                    
+                            <!-- CIDADE -->
                     <label for="cidade">Cidade</label>
-                    <select id="cidade">
-                        <option value="cidade1">Estrela</option>
-                        <option value="cidade2">Lajeado</option>
+                    <select id="cidade" name="cidade">
+                        <option>Estrela</option>
+                        <option>Lajeado</option>
                     </select>
+                    
+                    
+                            <!-- PAIS -->
                     <label for="pais">País</label>
-                    <select id="pais">
-                        <option value="pais1">Brasil</option>
-                        <option value="pais1">Uruguai</option>
+                    <select id="pais" name="pais">
+                        <option>Brasil</option>
+                        <option>Uruguai</option>
                     </select>
+                    
+                    
                 </div>
+                
                 <div id="acoes">
                     <input type="submit" value="Salvar" id="button-salvar-cad">
                     <input type="submit" value="Consultar" id="button-consultar-cad">
@@ -83,5 +94,8 @@
             </form>
         </div>
         <script src="js/validaCamposCadastroUsuario.js"></script>
+        <script src="js/mudaAtributoExcluir.js"></script>
+        <script src="js/mudaAtributoInserir.js"></script>
+        <script src="js/mudaAtributoConsultar.js"></script>
     </body>
 </html>

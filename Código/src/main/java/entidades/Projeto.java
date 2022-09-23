@@ -1,9 +1,10 @@
 package entidades;
 
 public class Projeto {
+    private int id;
     private String titulo;
     private String descricao;
-    private int id;
+
     
     public int getId() {
         return id;

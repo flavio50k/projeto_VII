@@ -44,7 +44,7 @@ html {
     text-align: center;
     width: 50px;
     height: 30px;
-    margin-left: 54px;
+    margin-left: 120px;
     margin-bottom: 20px;
     padding-left: 15px;
     padding-right: 15px;
@@ -56,10 +56,19 @@ html {
     margin-top: 8%;
 }
 
-#cod-field, #comp-field {
+#cod-field {
     width: 50px;
     height: 30px;
-    margin-left: 10px;
+    margin-left: 75px;
+    margin-bottom: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#comp-field{
+    width: 50px;
+    height: 30px;
+    margin-left: 11px;
     margin-bottom: 20px;
     padding-left: 15px;
     padding-right: 15px;

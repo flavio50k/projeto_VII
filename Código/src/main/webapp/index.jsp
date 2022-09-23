@@ -15,16 +15,16 @@
             <form id="form-login" method="post">
                 <label for="user-field">Usuário</label>
                 <br>
-                <input type="text" class="login-field" id="user-field" required>
+                <input type="text" class="login-field" id="user-field" name="user-field" placeholder="joao.silva" required>
                 <br>
                 <label for="pass-field">Senha</label>
                 <br>
-                <input type="password"  class="login-field" id="pass-field" required>
+                <input type="password"  class="login-field" id="pass-field" name="pass-field" required>
                 <br>
+                <div id="acoes">
+                    <input type="submit" value="Login" id="button-login">
+                </div>
             </form>
-            <div id="acoes">
-                <input type="submit" value="Entrar" id="button-login">
-            </div>
         </div>
         <script src="js/validaCamposLogin.js"></script>
     </body>

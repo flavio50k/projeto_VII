@@ -1,7 +1,13 @@
-entidades\Projeto.class
-dao\ConexaoBanco.class
+dao\ProjetoDAO.class
+dao\PessoaDAO.class
 entidades\Estado.class
-entidades\Pais.class
+apoio\ConexaoBD.class
+dao\CidadeDAO.class
 entidades\Requisito.class
+entidades\Projeto.class
+dao\RequisitoDAO.class
+entidades\Pais.class
 entidades\Cidade.class
+servlet\acao.class
 entidades\Pessoa.class
+entidades\Usuario.class

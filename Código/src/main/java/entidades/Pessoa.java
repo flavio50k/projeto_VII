@@ -2,15 +2,18 @@ package entidades;
 
 public class Pessoa {
     private int id;
+    private String telefone;
+    private String cpf;
     private String usuario;
     private String senha;
     private String nome;
     private String sobrenome;
-    private int cpf;
-    private int telefone;
-    private String data;
     private String email;
-    private char situacao;
+    private String permissao;
+    private String situacao;
+    private String cidade;
+    private String estado;
+    private String Pais;
 
     public int getId() {
         return id;
@@ -52,28 +55,20 @@ public class Pessoa {
         this.sobrenome = sobrenome;
     }
 
-    public int getCpf() {
+    public String getCpf() {
         return cpf;
     }
 
-    public void setCpf(int cpf) {
+    public void setCpf(String cpf) {
         this.cpf = cpf;
     }
 
-    public int getTelefone() {
+    public String getTelefone() {
         return telefone;
     }
 
-    public void setTelefone(int telefone) {
+    public void setTelefone(String telefone) {
         this.telefone = telefone;
-    }
-
-    public String getData() {
-        return data;
-    }
-
-    public void setData(String data) {
-        this.data = data;
     }
 
     public String getEmail() {
@@ -84,11 +79,43 @@ public class Pessoa {
         this.email = email;
     }
 
-    public char getSituacao() {
+    public String getSituacao() {
         return situacao;
     }
 
-    public void setSituacao(char situacao) {
+    public void setSituacao(String situacao) {
         this.situacao = situacao;
+    }
+
+    public String getPermissao() {
+        return permissao;
+    }
+
+    public void setPermissao(String permissao) {
+        this.permissao = permissao;
+    }
+
+    public String getCidade() {
+        return cidade;
+    }
+
+    public void setCidade(String cidade) {
+        this.cidade = cidade;
+    }
+
+    public String getEstado() {
+        return estado;
+    }
+
+    public void setEstado(String estado) {
+        this.estado = estado;
+    }
+
+    public String getPais() {
+        return Pais;
+    }
+
+    public void setPais(String Pais) {
+        this.Pais = Pais;
     }
 }

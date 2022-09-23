@@ -18,5 +18,5 @@ public class Pais {
 
     public void setDescricao(String descricao) {
         this.descricao = descricao;
-    }    
+    }
 }

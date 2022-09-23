@@ -1,7 +1,13 @@
-G:\Meu Drive\UNIVATES\Gestão e Análise - EAD\Modulo 07 - Análise\Fritz\Módulo 7\Projeto Integrador VII\Tarefa 2\Código\src\main\java\entidades\Pais.java
-G:\Meu Drive\UNIVATES\Gestão e Análise - EAD\Modulo 07 - Análise\Fritz\Módulo 7\Projeto Integrador VII\Tarefa 2\Código\src\main\java\entidades\Estado.java
-G:\Meu Drive\UNIVATES\Gestão e Análise - EAD\Modulo 07 - Análise\Fritz\Módulo 7\Projeto Integrador VII\Tarefa 2\Código\src\main\java\entidades\Cidade.java
-G:\Meu Drive\UNIVATES\Gestão e Análise - EAD\Modulo 07 - Análise\Fritz\Módulo 7\Projeto Integrador VII\Tarefa 2\Código\src\main\java\entidades\Requisito.java
-G:\Meu Drive\UNIVATES\Gestão e Análise - EAD\Modulo 07 - Análise\Fritz\Módulo 7\Projeto Integrador VII\Tarefa 2\Código\src\main\java\dao\ConexaoBanco.java
-G:\Meu Drive\UNIVATES\Gestão e Análise - EAD\Modulo 07 - Análise\Fritz\Módulo 7\Projeto Integrador VII\Tarefa 2\Código\src\main\java\entidades\Projeto.java
-G:\Meu Drive\UNIVATES\Gestão e Análise - EAD\Modulo 07 - Análise\Fritz\Módulo 7\Projeto Integrador VII\Tarefa 2\Código\src\main\java\entidades\Pessoa.java
+D:\Matheus\Documents\NetBeansProjects\ProjetoIntegradorVII\src\main\java\dao\PessoaDAO.java
+D:\Matheus\Documents\NetBeansProjects\ProjetoIntegradorVII\src\main\java\dao\ProjetoDAO.java
+D:\Matheus\Documents\NetBeansProjects\ProjetoIntegradorVII\src\main\java\entidades\Pais.java
+D:\Matheus\Documents\NetBeansProjects\ProjetoIntegradorVII\src\main\java\dao\CidadeDAO.java
+D:\Matheus\Documents\NetBeansProjects\ProjetoIntegradorVII\src\main\java\apoio\ConexaoBD.java
+D:\Matheus\Documents\NetBeansProjects\ProjetoIntegradorVII\src\main\java\entidades\Cidade.java
+D:\Matheus\Documents\NetBeansProjects\ProjetoIntegradorVII\src\main\java\entidades\Requisito.java
+D:\Matheus\Documents\NetBeansProjects\ProjetoIntegradorVII\src\main\java\servlet\acao.java
+D:\Matheus\Documents\NetBeansProjects\ProjetoIntegradorVII\src\main\java\dao\RequisitoDAO.java
+D:\Matheus\Documents\NetBeansProjects\ProjetoIntegradorVII\src\main\java\entidades\Projeto.java
+D:\Matheus\Documents\NetBeansProjects\ProjetoIntegradorVII\src\main\java\entidades\Usuario.java
+D:\Matheus\Documents\NetBeansProjects\ProjetoIntegradorVII\src\main\java\entidades\Estado.java
+D:\Matheus\Documents\NetBeansProjects\ProjetoIntegradorVII\src\main\java\entidades\Pessoa.java
